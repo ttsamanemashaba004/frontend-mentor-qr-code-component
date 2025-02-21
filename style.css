@@ -1,19 +1,23 @@
 body{
     margin: 0;
     box-sizing: border-box;
-    padding: 6rem 2.5rem;
+    padding: 0;
     background: hsl(212, 45%, 89%);
     font-family: 'Outfit', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 
 .body{
     background-color:hsl(0, 0%, 100%);
     text-align: center;
-    margin: 0 auto;
-    height: auto;
+    max-width: 250px;
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .image{
@@ -23,11 +27,31 @@ body{
 }
 
 .bold_text{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
 .paragraph{
     color: hsl(216, 15%, 48%);
     font-size: .94rem;
+    margin: 0 0 1rem;
+}
+
+@media(min-width: 376px){
+    .body{
+        max-width: 300px;
+       
+    }
+}
+
+@media(min-width: 1440px){
+    .body{
+        max-width: 250px;
+       
+    }
+
+    .bold_text{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
 }
