@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 6rem 2.5rem;
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', serif;
+}
+
+
+.body{
+    background-color:hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.bold_text{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.paragraph{
+    color: hsl(216, 15%, 48%);
+    font-size: .94rem;
+}
